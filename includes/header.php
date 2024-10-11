@@ -3,8 +3,6 @@
     $current_page = basename($_SERVER['PHP_SELF']);
 ?>
         
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +11,6 @@
     <title><?php echo $pageTitle; ?></title>
     <link rel="stylesheet" href="<?= $root ?>assets/styles/header.css">
     <link rel="stylesheet" href="<?= $root ?>assets/styles/global.css">
-
-
 </head>
 <body>
 <header class="navbar">

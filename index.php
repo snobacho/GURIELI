@@ -1,20 +1,147 @@
 <?php
-    $pageTitle = 'GURIELI';
-    include 'includes/header.php';
+$pageTitle = 'GUfRIELI';
+include 'includes/header.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php $pageTitle?></title>
+    <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/global.css">
+    <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/first-slider.css">
+    <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
 </head>
 <body>
+    <div class="slider-container">
+        <div class="left-bar">
+            <div class="bullets">
+            <div class="bullet active"></div>
+            <div class="bullet"></div>
+            <div class="bullet"></div>
+            <div class="bullet"></div>
+            </div>
+        </div>
 
-<div><?php include 'pages/first-content.php'; ?></div>
-<!-- <div style="width: 100%; height: 200vh; margin-top: calc(100vh - 125px); background: red;"> </div> -->
+        <div class="content-slider" style="background-image: url(<?= $root ?>assets/imgs/agriculture.jpg)">
+            <div class="content active">
+                <h4 class="small-desc">GEORGIAN TRADITION</h4>
+                <h1 class="heading">TEA MAKING CULTURE INSPIRED <br> BY THE HISTORY</h1>
+                <p class="description">From the beginning it was back in 1809, two hundred years <br> ago, first tea plant was brought to Georgia</p>
+                <button class="btn-light"><a href="#"> Read More </a></button>
+            </div>
+        </div>
+
+        <div class="right-bar">
+            <div class="social-icons">
+            <a href="" target="_blank" class="icon"><img src="<?= $root ?>assets/imgs/icons/facebook.png" alt="Facebook"></a>
+            <a href="" target="_blank" class="icon"><img src="<?= $root ?>assets/imgs/icons/instagram.png" alt="Instagram"></a>
+            <a href="" target="_blank" class="icon"><img src="<?= $root ?>assets/imgs/icons/linkedin.png" alt="LinkedIn"></a>
+            <a href="" target="_blank" class="icon"><img src="<?= $root ?>assets/imgs/icons/youtube.png" alt="YouTube"></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- home about content  -->
+     <section class="home-about">
+        <div class="home-about-img"><img src="<?= $root ?>assets/imgs/home-about.png"> </div>
+        <div class="about-content"> 
+            <h2 class="heading">HISTORY OF GURIELI</h2>
+            <p class="txt">From the beginning it was back in 1809, two-hundred years
+                ago, Prince Mamia V Gurieli (1809-1826), last ruler of Guria
+                principality in Western Georgia, took great interest in transforming and developing the agricultural sector. <br /> 
+                Following the advice given by the French botanists Andre Michaux and his son Francois Andre Michaux, 
+                who were the first to bring the tea plant to the United States in 1799, the Prince ordered the first Tea - Camellia
+                Sinensis samples. These were brought to his botanical garden by the Scotsman Jacob Montague Marr, together with other exotic
+                plants. Cultivation of this once unknown plant
+                has laid the grounds for the development of what in the following decades became one of the biggest agricultural industries in Georgia.</p>
+            <button class="btn-dark">
+                <a href="#">READ MORE</a>
+            </button>
+        </div>
+     </section>
+    
+
+    <!-- home product slider  -->
+    <div class="home-product-slider">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="<?= $root ?>assets/imgs/products-imgs/home-products/product2.png" alt="GURIELI TEA" class="slide-img">
+                    <h3 class="heading">TRADITIONAL
+                    BLACK</h3>
+                    <p class="txt">Available in different formats<br>Prince Gurieli edition</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="<?= $root ?>assets/imgs/products-imgs/home-products/product3.png" alt="GURIELI TEA" class="slide-img">
+                    <h3 class="heading">TRADITIONAL GREEN</h3>
+                    <p class="txt">Available in different formats<br> Prince Gurieli edition</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="<?= $root ?>assets/imgs/products-imgs/home-products/product4.png" alt="GURIELI TEA" class="slide-img">
+                    <h3 class="heading">EARL GREY</h3>
+                    <p class="txt">Available in different formats,<br>Prince Gurieli edition</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="<?= $root ?>assets/imgs/products-imgs/home-products/product5.png" alt="GURIELI TEA" class="slide-img">
+                    <h3 class="heading">ALPINE BERRY</h3>
+                    <p class="txt">Available in different formats, <br>Prince Gurieli edition</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="<?= $root ?>assets/imgs/products-imgs/home-products/product6.png" alt="GURIELI TEA" class="slide-img">
+                    <h3 class="heading">TRADITIONAL BLACK</h3>
+                    <p class="txt">Available in different formats, Gurieli</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="<?= $root ?>assets/imgs/products-imgs/home-products/product7.png" alt="GURIELI TEA" class="slide-img">
+                    <h3 class="heading">TRADITIONAL GREEN</h3>
+                    <p class="txt">Available in different formats, Gurieli</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="<?= $root ?>assets/imgs/products-imgs/home-products/product8.png" alt="GURIELI TEA" class="slide-img">
+                    <h3 class="heading">EARL GREY</h3>
+                    <p class="txt">Available in different formats, Gurieli</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="<?= $root ?>assets/imgs/products-imgs/home-products/product8.png" alt="GURIELI TEA" class="slide-img">
+                    <h3 class="heading">ALPINE BERRY</h3>
+                    <p class="txt">Available in different formats, Gurieli</p>
+                </div>
+            </div>
+            <!-- Arrows -->
+            <div class="swiper-button-next">
+                <img src="<?= $root ?>assets/imgs/icons/prew-swipper.png" alt="Next">
+            </div>
+            <div class="swiper-button-prev">
+                <img src="<?= $root ?>assets/imgs/icons/prew-swipper.png" alt="Previous">
+            </div>
+        </div>
+    </div>
+    
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <?php include 'includes/footer.php';?>
+
+    
+    <script src="<?php echo $root;?>assets/scripts/firstPage.js"></script>
 </body>
 </html>

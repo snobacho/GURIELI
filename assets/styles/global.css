@@ -17,6 +17,10 @@
     --green: #97A52F;
   }
 
+  body {
+    background-color: #EDEDEB;
+  }
+
 .txt {
     color: #545454;
     font-size: 14px;
@@ -33,6 +37,8 @@
 
 .btn-dark {
     background: transparent;
+    border: none;
+    outline: none;
 }
 .btn-dark a {
     font-family: 'Albertus Medium', sans-serif;
@@ -45,13 +51,14 @@
     height: 45px;
     border: 1px solid #424242;
     border-radius: 10px;
+    font-weight: 400;
 }
 
 
-
-
 .btn-light {
-    background: transparent !important;
+    background: transparent;
+    border: none;
+    outline: none;
 }
 .btn-light a {
     font-family: 'Albertus Medium', sans-serif;
@@ -65,4 +72,5 @@
     height: 45px;
     border: 1px solid #FFFFFF;
     border-radius: 10px;
+    font-weight: 400;
 }
