@@ -1,18 +1,17 @@
 <?php
-$pageTitle = 'GUfRIELI';
-include 'includes/header.php';
+    $root = dirname(__DIR__) . '/'; 
+    $pageTitle = 'GUfRIELI';
+    include 'includes/header.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/global.css">
     <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/first-slider.css">
     <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/home.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
 </head>
 <body>
     <div class="slider-container">
@@ -46,7 +45,7 @@ include 'includes/header.php';
 
 
     <!-- home about content  -->
-     <section class="home-about">
+    <section class="home-about">
         <div class="home-about-img"><img src="<?= $root ?>assets/imgs/home-about.png"> </div>
         <div class="about-content"> 
             <h2 class="heading">HISTORY OF GURIELI</h2>
@@ -62,7 +61,7 @@ include 'includes/header.php';
                 <a href="#">READ MORE</a>
             </button>
         </div>
-     </section>
+    </section>
     
 
     <!-- home product slider  -->
@@ -122,26 +121,27 @@ include 'includes/header.php';
     </div>
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- RESOURCES -->
+    <section class="home-resources">
+        <div class="about-content"> 
+            <h2 class="heading">OUR RESOURCES</h2>
+            <p class="txt">Our factory is located in Ozurgeti, Guria. Gurieli tea is produced in our own production units equipped with
+                state-of-the art machinery from TI Global (India) for the primary production of both black and green teas,
+                blending and flavoring facilities, packing machinery from IMA S.p.A (Italy), Marden Edwards (Great Britain), Fuso (Japan). <br><br><br>
+                The new packing factory was opened in September 2015, equipped with the best , modern machinery. It’s working at full capacity
+                in order to provide better and more diverse packaging for our exclusive products. 
+            </p>
+            <button class="btn-dark">
+                <a href="#">READ MORE</a>
+            </button>
+        </div>
+        <div class="home-about-img"><img src="<?= $root ?>assets/imgs/resources-bg.png"> </div>
+    </section>
 
     <?php include 'includes/footer.php';?>
-
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="<?php echo $root;?>assets/scripts/firstPage.js"></script>
+
+
 </body>
 </html>

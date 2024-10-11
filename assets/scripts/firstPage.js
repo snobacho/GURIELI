@@ -63,4 +63,18 @@ const swiper = new Swiper('.swiper-container', {
         delay: 3000, 
         disableOnInteraction: false, 
     },
+    breakpoints: {
+        1025: { 
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+        1024: { 
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        768: { 
+            slidesPerView: 2,
+            spaceBetween: 10,
+        }
+    }
 });
