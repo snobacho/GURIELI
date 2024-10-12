@@ -14,7 +14,7 @@
 </head>
 <body>
 <header class="navbar">
-    <div class="logo"><a href="<?= $root ?>"><img src="assets/imgs/logo-light-gurieli.png" alt=""></a></div>
+    <div class="logo"><a href="<?= $root ?>"><img src="<?= $root ?>assets/imgs/logo-light-gurieli.png" alt=""></a></div>
     <div class="menu-toggle" id="mobile-menu">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -26,23 +26,17 @@
                 <a href="<?= $root ?>" class="<?= $current_page == 'index.php' ? 'active' : '' ?>">HOME</a>
             </li>
             <li class="nav-item">
-            <a href="<?= $root ?>pages/about.php" class="<?= $current_page == 'about.php' ? 'active' : '' ?>">OUR HYSTORY</a>
+                <a href="<?= $root ?>pages/about.php" class="<?= $current_page == 'about.php' ? 'active' : '' ?>">OUR HISTORY</a>
             </li>
             <li class="nav-item">
                 <a href="#" class="<?= $current_page == 'products.php' ? 'active' : '' ?>">PRODUCTS</a>
                 <ul class="dropdown">
                     <li class="dropdown-item">
-                        <a href="#" class="<?= $current_page == 'products.php' ? 'active' : '' ?>">Hot Brew Tea</a>
+                        <a href="#">Hot Brew Tea</a>
                         <ul class="child-list">
-                            <li>
-                                <a href="<?= $root ?>pages/products.php" class="<?= $current_page == 'products.php' ? 'active' : '' ?>">Gurieli Classic</a>
-                            </li>
-                            <li>
-                                <a href="#" class="<?= $current_page == 'prince-gurieli.php' ? 'active' : '' ?>">Premium: Prince Gurieli</a>
-                            </li>
-                            <li>
-                                <a href="#" class="<?= $current_page == 'special-editions.php' ? 'active' : '' ?>">Special Editions</a>
-                            </li>
+                            <li><a href="<?= $root ?>pages/products.php" class="<?= $current_page == 'products.php' ? 'active' : '' ?>">Gurieli Classic</a></li>
+                            <li><a href="<?= $root ?>pages/prince-gurieli.php" class="<?= $current_page == 'prince-gurieli.php' ? 'active' : '' ?>">Premium: Prince Gurieli</a></li>
+                            <li><a href="#" class="<?= $current_page == 'special-editions.php' ? 'active' : '' ?>">Special Editions</a></li>
                         </ul>
                     </li>
                     <li class="dropdown-item">
@@ -60,34 +54,31 @@
     </nav>
 </header>
 
+<script>
+    const burgerMenu = document.querySelector('.menu-toggle');
+    const navMenu = document.querySelector('.nav');
 
+    burgerMenu.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        burgerMenu.classList.toggle('open'); 
+    });
 
+    window.addEventListener('scroll', () => {
+        const aboutSection = document.querySelector('#about');
+        const aboutLink = document.querySelector('.about-link');
 
-    <script>
-        const burgerMenu = document.querySelector('.menu-toggle');
-        const navMenu = document.querySelector('.nav');
+        const sectionTop = aboutSection.offsetTop;
+        const sectionHeight = aboutSection.offsetHeight;
+        const scrollPosition = window.scrollY + 100; 
 
-        burgerMenu.addEventListener('click', () => {
-            navMenu.classList.toggle('active');
-            burgerMenu.classList.toggle('open'); 
-        });
+        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            aboutLink.classList.add('active')
+        } else {
+            aboutLink.classList.remove('active')
+        }
+    });
+</script>
 
-
-        window.addEventListener('scroll', () => {
-            const aboutSection = document.querySelector('#about');
-            const aboutLink = document.querySelector('.about-link');
-
-            const sectionTop = aboutSection.offsetTop;
-            const sectionHeight = aboutSection.offsetHeight;
-            const scrollPosition = window.scrollY + 100; 
-
-            if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-                aboutLink.classList.add('active')
-            } else {
-                aboutLink.classList.remove('active')
-            }
-        });
-    </script>
     
 </body>
 </html>

@@ -45,23 +45,64 @@ const slider1Images = [
 ];
 const slider1Container = document.querySelector('#slider1');
 if (slider1Container) {
-    createCustomSlider(slider1Container, slider1Images, 14000);
+    createCustomSlider(slider1Container, slider1Images, 3000);
 }
 
 
-
+// export sliders 
 const slider2Images = [
-    'assets/imgs/agriculture.jpg',
-    'assets/imgs/bg-5.jpg',
-    'assets/imgs/bg-6.jpg',
-    'assets/imgs/bg-7.jpg'
+    'https://keenitsolutions.com/products/wordpress/braintech/wp-content/uploads/2020/12/about-5.png',
+    'https://keenitsolutions.com/products/wordpress/braintech/wp-content/uploads/2020/12/about-5.png',
+    'https://keenitsolutions.com/products/wordpress/braintech/wp-content/uploads/2020/12/about-5.png',
+    'https://keenitsolutions.com/products/wordpress/braintech/wp-content/uploads/2020/12/about-5.png'
 ];
 const slider2Container = document.querySelector('#slider2');
 if (slider2Container) {
-    createCustomSlider(slider2Container, slider2Images, 12000);
+    createCustomSlider(slider2Container, slider2Images, 3000);
 }
 
-// Initialize Swiper slider
+// prince gurieli slide 
+const slider3Images = [
+    'https://keenitsolutions.com/products/wordpress/braintech/wp-content/uploads/2020/12/about-5.png',
+    'https://keenitsolutions.com/products/wordpress/braintech/wp-content/uploads/2020/12/about-5.png',
+    'https://keenitsolutions.com/products/wordpress/braintech/wp-content/uploads/2020/12/about-5.png',
+    'https://keenitsolutions.com/products/wordpress/braintech/wp-content/uploads/2020/12/about-5.png'
+];
+const slider3Container = document.querySelector('#slider3');
+if (slider3Container) {
+    createCustomSlider(slider3Container, slider3Images, 3000);
+}
+
+
+
+// contact slide 
+const slider4Images = [
+    '../assets/imgs/contact-bg.svg',
+    '../assets/imgs/contact-bg.svg',
+    '../assets/imgs/contact-bg.svg',
+    '../assets/imgs/contact-bg.svg'
+];
+const slider4Container = document.querySelector('#slider4');
+if (slider4Container) {
+    createCustomSlider(slider4Container, slider4Images, 3000);
+}
+
+
+// Export - slider 
+const slider5Images = [
+    '../assets/imgs/contact-bg.svg',
+    '../assets/imgs/contact-bg.svg',
+    '../assets/imgs/contact-bg.svg',
+    '../assets/imgs/contact-bg.svg'
+];
+const slider5Container = document.querySelector('#slider5');
+if (slider5Container) {
+    createCustomSlider(slider5Container, slider5Images, 3000);
+}
+
+
+
+// home  products  Swiper slider
 document.addEventListener('DOMContentLoaded', function() {
     const swiper = new Swiper('.swiper-container', {
         slidesPerView: 4, 

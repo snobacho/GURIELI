@@ -10,8 +10,8 @@
 
 <section class="history-section">
     <div class="about-head-img"><img src="<?php echo $root?>assets/imgs/about/gurieli-about-1.png" alt="gurieli history"></div>
-    <h1 class="heading history-heading">HISTORY</h1>
-    <div class="history-txt">
+    <h1 class="heading history-heading fade-in">HISTORY</h1>
+    <div class="history-txt fade-in">
         <p class="txt">
             From the beginning it was back in 1809, two-hundred years ago,
             Prince Mamia V Gurieli (1809-1826), last ruler of Guria
@@ -56,7 +56,7 @@
         </div>
     </div>
 
-    <div class="history-txt mt-60">
+    <div class="history-txt mt-60 fade-in">
         <p class="txt">
             The number of sunny days in Georgia, optimal average annual temperature (+12.5 C ..+14.7 C) and subtropical 
             climate contribute to the quality of tea leaves. Strong contrast between day and nighttime temperatures during 
@@ -83,9 +83,9 @@
 
 
 <!-- about awards  -->
-<div class="history-txt about-awards mt-60">
+<div class="history-txt about-awards mt-60 fade-in">
         <p class="txt">
-            <h3>Prizes & Awards</h3>
+            <h3>PriZes & Awards</h3>
             “Gurieli” has been awarded with numerous awards and certificates for the revival and development of 
             the tea industry, for our corporate social responsibility and for various charity activities. <br> <br>
             The “Georgian Quality Foundation” has awarded us with the “Quality Mark”, which was based on 
@@ -110,11 +110,11 @@
 <section class="about-statistics">
     <div class="guria" style="background-image: url(<?php echo $root?>assets/imgs/about/gurieli-about-4.png);">
         <div class="guria-txts mb-60">
-            <h4>West Georgia</h4>
+            <h4 clas="fade-in">West Georgia</h4>
             <h1>guria</h1>
         </div>
     </div>
-    <div class="about-statistics-wrap">
+    <div class="about-statistics-wrap clas="fade-in"">
         <p class="txt">
             Our Factory is located in Ozurgeti, Guria. Gurieli tea is produced in our own production
             units equipped with state-of-the art machinery from II Global (India) for the primary 
@@ -131,7 +131,7 @@
         </p>
 
 
-        <div class="about-statistic-bg mt-60" style="background-image: url(<?php echo $root?>assets/imgs/about/gurieli-about-5.png);">
+        <div class="about-statistic-bg mt-60 fade-in" style="background-image: url(<?php echo $root?>assets/imgs/about/gurieli-about-5.png);">
             <h2>plantations</h2>
         </div>
         <div class="statistics-items mt-60 mb-60">
@@ -152,7 +152,7 @@
 </section>
 
 
-
+<script src="<?php echo $root;?>assets/scripts/animate.js"></script>
 <?php
     $root = dirname(__DIR__) . '/'; 
     include $root . 'includes/footer.php';

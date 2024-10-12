@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/slider.css">
     <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/home.css">
 </head>
-<body>
+<body class="home">
     <div class="slider-container" id="slider1">
         <div class="left-bar">
             <div class="bullets">

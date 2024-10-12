@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="<?= $root ?>/assets/styles/global.css">
 </head>
 <body>
-<header class="navbar inside-nav">
-    <div class="logo"><a href="<?= $root ?>"><img src="<?= $root ?>assets/imgs/gurieli-dark-logo.svg" alt="Logo"></a></div>
+<header class="navbar inside-nav green">
+    <div class="logo"><a href="<?= $root ?>"><img src="<?= $root ?>assets/imgs/green-gurieli-logo.png" alt="Logo"></a></div>
     <div class="menu-toggle" id="mobile-menu">
         <span class="bar"></span>
         <span class="bar"></span>

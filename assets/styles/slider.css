@@ -101,29 +101,24 @@
    
   .content {
     position: absolute;
-    opacity: 0;
-    visibility: hidden;
+    /* opacity: 0; */
+    /* visibility: hidden; */
     text-align: left;
     left: 16%;
     transition: opacity 1s ease-in-out, visibility 0s 1s;
     max-width: 60%;
 }
-   
+/*    
 .content.active {
   opacity: 1;
   visibility: visible;
   transition: opacity 1s ease-in-out, visibility 0s 0s;
 }
-   
+    */
    .content .heading {
      color: #fff;
      font-family: "Playfair Display", serif;
      font-weight: 400;
-     text-shadow: 
-        -1px -1px 0 black,  
-        1px -1px 0 black, 
-        -1px 1px 0 black,   
-        1px 1px 0 black;
    }
    
    .description {
@@ -131,13 +126,32 @@
     color: rgb(235, 225, 225);
     font-weight: 400;
     font-family: 'Albertus Medium', sans-serif;
-    text-shadow: 
-    -1px -1px 0 black,  
-    1px -1px 0 black, 
-    -1px 1px 0 black,   
-    1px 1px 0 black;
     margin: 30px 0;
    }
+
+   .home .heading {
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    text-shadow: 
+       -1px -1px 0 black,  
+       1px -1px 0 black, 
+       -1px 1px 0 black,   
+       1px 1px 0 black;
+  }
+  
+ .home .description {
+   font-size: 19px;
+   color: rgb(235, 225, 225);
+   font-weight: 400;
+   font-family: 'Albertus Medium', sans-serif;
+   text-shadow: 
+   -1px -1px 0 black,  
+   1px -1px 0 black, 
+   -1px 1px 0 black,   
+   1px 1px 0 black;
+   margin: 30px 0;
+  }
    
     .content .small-desc {
         color: white;
