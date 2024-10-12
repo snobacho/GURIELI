@@ -10,11 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/global.css">
-    <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/first-slider.css">
+    <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/slider.css">
     <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/home.css">
 </head>
 <body>
-    <div class="slider-container">
+    <div class="slider-container" id="slider1">
         <div class="left-bar">
             <div class="bullets">
             <div class="bullet active"></div>
@@ -140,7 +140,7 @@
 
     <?php include 'includes/footer.php';?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="<?php echo $root;?>assets/scripts/firstPage.js"></script>
+    <script src="<?php echo $root;?>assets/scripts/sliders.js"></script>
 
 
 </body>

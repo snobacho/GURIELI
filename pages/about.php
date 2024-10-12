@@ -77,7 +77,6 @@
             drink of the millennium to the world from the finest, environmentally-friendly, best tea plantations of rural Georgia. 
         </p>
     </div>
-    <div class="about-sec-bg"><img src="<?php echo $root?>assets/imgs/about/gurieli-about-3.png" alt="gurieli history"></div>
 </section>
 
 

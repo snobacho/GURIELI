@@ -161,8 +161,15 @@
 .about-awards h3 {
     font-family: 'Agraham', sans-serif;
 }
-.about-awards {
+.history-txt.about-awards {
     padding: 0 10px;
     text-align: justify;
+    max-width: 1160px;
 }
 
+ .about-awards {
+    color: #838080;
+}
+.about-awards h3 {
+    color: var(--black);
+}

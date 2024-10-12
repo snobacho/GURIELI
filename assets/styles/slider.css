@@ -144,3 +144,20 @@
         font-weight: 400;
         
     }
+
+    .lang-switch {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      bottom: 100px;
+      display: flex;
+      gap: 10px;
+      cursor: pointer;
+    }
+    .lang-switch a {
+      color: #B9B9B9;
+      font-weight: bold;
+    }
+    .lang-switch a.active {
+      color: var(--green);
+    }
