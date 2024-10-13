@@ -102,37 +102,33 @@ if (slider5Container) {
 
 
 
-// home  products  Swiper slider
-document.addEventListener('DOMContentLoaded', function() {
-    const swiper = new Swiper('.swiper-container', {
-        slidesPerView: 4, 
-        loop: true, 
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+
+// home products slider 
+const swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1, 
+    spaceBetween: 10, 
+    loop: true, 
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    grabCursor: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    autoplay: {
+        delay: 3000, 
+        disableOnInteraction: false, 
+    },
+    breakpoints: {
+        768: { 
+            slidesPerView: 2,
+            spaceBetween: 20,
         },
-        grabCursor: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        autoplay: {
-            delay: 3000, 
-            disableOnInteraction: false, 
-        },
-        breakpoints: {
-            1025: { 
-                slidesPerView: 4,
-                spaceBetween: 20,
-            },
-            1024: { 
-                slidesPerView: 2,
-                spaceBetween: 20,
-            },
-            768: { 
-                slidesPerView: 2,
-                spaceBetween: 10,
-            }
+        1024: { 
+            slidesPerView: 4,
+            spaceBetween: 20,
         }
-    });
+    }
 });
