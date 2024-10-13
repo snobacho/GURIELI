@@ -20,6 +20,13 @@
 body {
     background-color: #EDEDEB;
 }
+*::selection {
+    background-color: rgb(86, 86, 86);
+    color: var(--green);
+}
+button, img, button a {
+    user-select: none;
+}
 
 .txt {
     color: #545454;
@@ -86,10 +93,15 @@ body {
 }
 img {
     user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
 }
 
 
 
+/* animations  */
 .fade-in {
     opacity: 0;
     transition: opacity 1s ease-in-out;
