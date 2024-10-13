@@ -1,9 +1,11 @@
-# Enable Rewrite Engine
 RewriteEngine On
 
-
-# Enable the rewrite engine
-RewriteEngine On
-
-# Custom 404 error page
 ErrorDocument 404 /404.php
+
+# Redirect from 404 page to the homepage after 3 seconds
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^404.php$ /404.php [L]
+</IfModule>
