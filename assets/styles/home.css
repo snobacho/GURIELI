@@ -112,6 +112,7 @@
 /* home-resources */
 .home-resources {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     position: relative;
     padding: 100px 0;
