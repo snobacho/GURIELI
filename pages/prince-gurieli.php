@@ -1,7 +1,7 @@
 <?php
     $root = dirname(__DIR__) . '/'; 
     $current_page = basename($_SERVER['PHP_SELF']); 
-    $pageTitle = 'HISTORY OF GURIELI'; 
+    $pageTitle = 'PRINCE GURIELI'; 
     include $root . 'includes/inside-header.php';
 ?>
 
@@ -85,7 +85,6 @@
                     as well as air temperature and relative humidity parameters and regulations are specially derived by our company specialists.
                 </p>
         </div>
-        traditional-black.png
 
         <!-- traditional tea cards  -->
         <div class="card-container products mb-60">
