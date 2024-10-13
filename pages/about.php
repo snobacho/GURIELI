@@ -82,6 +82,7 @@
 
 
 
+<section>
 <!-- about awards  -->
 <div class="history-txt about-awards mt-60 fade-in">
         <p class="txt">
@@ -114,7 +115,7 @@
             <h1>guria</h1>
         </div>
     </div>
-    <div class="about-statistics-wrap clas="fade-in"">
+    <div class="about-statistics-wrap">
         <p class="txt">
             Our Factory is located in Ozurgeti, Guria. Gurieli tea is produced in our own production
             units equipped with state-of-the art machinery from II Global (India) for the primary 
@@ -123,18 +124,12 @@
             The new packing factory was opened in September 2015, equipped with the best, modern machinery,
             it’s working at full capacity in order to provide better and more diverse packaging for our exclusive products. 
         </p>
-        <p class="txt">
-            Due to natural factors, it is not necessary to use of pesticides and herbicides
-            therefore our tea is ecologically pure and the environment is less polluted. Strong contrast between day and nighttime temperatures during the period when the tea
-            shoots start to appear, produces aromatic substances in the delicate sprouts of the plant creating a complex bouquet
-            of aroma unique to Georgian tea.
-        </p>
-
+  
 
         <div class="about-statistic-bg mt-60 fade-in" style="background-image: url(<?php echo $root?>assets/imgs/about/gurieli-about-5.png);">
             <h2>plantations</h2>
         </div>
-        <div class="statistics-items mt-60 mb-60">
+        <div class="statistics-items mt-60">
             <div class="statistic-item">
                 <h4 class="number">120,000</h4>
                 <p>SQ M PLANTATIONS</p>
@@ -148,7 +143,15 @@
                 <p>KGs OF PACKAGED TEA</p>
             </div>
         </div>
+        <p class="txt mb-60">
+            Due to natural factors, it is not necessary to use of pesticides and herbicides
+            therefore our tea is ecologically pure and the environment is less polluted. Strong contrast between day and nighttime temperatures during the period when the tea
+            shoots start to appear, produces aromatic substances in the delicate sprouts of the plant creating a complex bouquet
+            of aroma unique to Georgian tea.
+        </p>
     </div>
+ 
+
 </section>
 
 

@@ -25,21 +25,16 @@
             </div>
         </div>
 
-        <div class="content-slider" style="background-image: url(<?= $root ?>assets/imgs/agriculture.jpg)">
-            <div class="content active">
-                <h4 class="small-desc">GEORGIAN TRADITION</h4>
-                <h1 class="heading">TEA MAKING CULTURE INSPIRED <br> BY THE HISTORY</h1>
-                <p class="description">From the beginning it was back in 1809, two hundred years <br> ago, first tea plant was brought to Georgia</p>
-                <button class="btn-light"><a href="#"> Read More </a></button>
-            </div>
+        <div class="content-slider" style="background-image: url(<?= $root ?>assets/imgs/products-imgs/product-bg.png)">
+           
         </div>
 
         <div class="right-bar">
             <div class="social-icons">
-            <a href="" target="_blank" class="icon"><img src="<?= $root ?>assets/imgs/icons/facebook.png" alt="Facebook"></a>
-            <a href="" target="_blank" class="icon"><img src="<?= $root ?>assets/imgs/icons/instagram.png" alt="Instagram"></a>
-            <a href="" target="_blank" class="icon"><img src="<?= $root ?>assets/imgs/icons/linkedin.png" alt="LinkedIn"></a>
-            <a href="" target="_blank" class="icon"><img src="<?= $root ?>assets/imgs/icons/youtube.png" alt="YouTube"></a>
+                <a href="" target="_blank" class="icon"><img src="<?= $root ?>assets/imgs/icons/facebook.png" alt="Facebook"></a>
+                <a href="" target="_blank" class="icon"><img src="<?= $root ?>assets/imgs/icons/instagram.png" alt="Instagram"></a>
+                <a href="" target="_blank" class="icon"><img src="<?= $root ?>assets/imgs/icons/linkedin.png" alt="LinkedIn"></a>
+                <a href="" target="_blank" class="icon"><img src="<?= $root ?>assets/imgs/icons/youtube.png" alt="YouTube"></a>
             </div>
         </div>
     </div>

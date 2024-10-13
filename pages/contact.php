@@ -69,3 +69,7 @@
     </div>
     <script src="<?php echo $root;?>assets/scripts/sliders.js"></script>
 
+    <?php
+        $root = dirname(__DIR__) . '/'; 
+        include $root . 'includes/footer.php';
+    ?>

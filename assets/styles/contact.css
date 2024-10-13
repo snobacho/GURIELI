@@ -24,8 +24,9 @@
 }
 
 .content-slider {
-    background-position: right bottom;
-    background-size: contain;
+    background-position: bottom;
+    background-size: auto 660px;
+    background-repeat: no-repeat;
 }
 
 .map {

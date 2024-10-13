@@ -41,6 +41,7 @@
             <a href="" target="_blank" class="icon"><img src="<?= $root ?>assets/imgs/icons/youtube.png" alt="YouTube"></a>
             </div>
         </div>
+        <img class="born-in-georgia" src="<?= $root ?>assets/imgs/born-in-georgia.png" alt="born in georgia tea"></a>
     </div>
 
 
