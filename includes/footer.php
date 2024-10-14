@@ -3,7 +3,7 @@
     $current_page = basename($_SERVER['PHP_SELF']);
 ?>
 <head>
-    <link rel="stylesheet" href="<?php echo $root?>assets/styles/global.css">
+    <link rel="stylesheet" href="<?php echo $root?>assets/styles/styles.css">
     <link rel="stylesheet" href="<?php echo $root?>assets/styles/footer.css">
 </head>
 
@@ -25,7 +25,7 @@
         <div class="statistic-wrap">
             <div class="statistic-item">
                 <h4>150, 000</h4>
-                <p>KGs OF PACKAGED TEA</p>
+                <p>KGs OF PACKAGED TEA</p> 
             </div>
             <div class="statistic-item">
                 <h4>120, 000</h4>

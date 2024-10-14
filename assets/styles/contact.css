@@ -1,13 +1,13 @@
 .content.contact {
-    max-width: 1200px;
     width: 90%;
+    max-width: 1100px;
 }
 .contact-items {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    
+    gap: 20px;
 }
 .icon-box .heading {
     font-size: 20px;
@@ -58,4 +58,28 @@
 }
 .heading.page-title {
     color: var(--black);
+}
+
+@media (min-width: 1100px) and (max-width: 1400px) {
+    .content.contact {
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .content.contact {
+        width: 70%;
+    }
+    .content {
+        left: 6%;
+        top: 110px;
+    }
+    
+    .contact .icon-box a, .gurieli-contacts h3.heading {
+        font-size: 16px;
+    }
+    .icon-box img {
+        width: 20px;
+    }
+
 }

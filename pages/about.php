@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="<?php echo $root?>assets/styles/about.css">
 </head>
 
-<section class="history-section">
+<section class="history-section about">
     <div class="about-head-img"><img src="<?php echo $root?>assets/imgs/about/gurieli-about-1.png" alt="gurieli history"></div>
     <h1 class="heading history-heading fade-in">HISTORY</h1>
     <div class="history-txt fade-in">

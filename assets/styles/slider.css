@@ -227,7 +227,8 @@
       font-size: 22px;
     }
     .home .content-slider .description {
-      display: none;
+      font-size: 13px;
+      margin: 8px 0;
     }
     .home .content .small-desc {
       font-size: 13px;
@@ -242,3 +243,16 @@
     }
     
   }
+
+  @media (max-width: 1040px) {
+    .lang-switch {
+      display: none;
+    }
+  }
+
+  
+@media (min-width: 200px) and (max-width: 360px) {
+  .right-bar {
+      width: 60px;
+  }
+}

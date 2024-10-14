@@ -6,10 +6,11 @@
     border-color: #565656;
     position: fixed;
 }
-.history-section {
+
+.history-section.about {
+    padding: 0;
     padding-top: 125px;
 }
-
 .about-head-img {
     height: 80px;
     width: 100%;
@@ -36,7 +37,6 @@
 
 .history-txt p {
     max-width: 530px;
-    text-justify: inter-word;
     text-align: justify;
 }
 
@@ -173,3 +173,48 @@
 .about-awards h3 {
     color: var(--black);
 }
+
+
+
+@media only screen and (max-width: 1040px) {
+    .history-section.about {
+        padding: 0;
+        padding-top: 80px;
+    }
+    .history-section .history-heading {
+        margin: 20px 0;
+        text-align: center;
+    }
+    .about-statistics {
+        flex-wrap: wrap;
+    }
+    .about-statistics .guria {
+        width: 100%;
+        background-image: none !important;
+    }
+    .guria-txts {
+        transform: rotate(0deg);
+    }
+    .about-statistics .guria-txts h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .about-statistics .guria-txts h4 {
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about-first-bg {
+        margin-top: -90px;
+        height: 500px;
+        z-index: -1;
+    }
+    p, .about-first-bg p {
+        padding: 0 14px;
+    }
+    .about-statistics {
+        padding: 0;
+    }
+}
+

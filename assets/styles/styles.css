@@ -47,6 +47,7 @@ button, img, button a {
     font-style: normal;
     color: #101010;
     margin-bottom: 30px;
+    transition: .4s;
 }
 
 .btn-dark {
@@ -127,5 +128,38 @@ img {
     .btn-dark a, .btn-light a {
         height: 38px;
         font-size: 14px;
+    }
+  }
+
+  @media (min-width: 600px) and (max-width: 1500px) {
+    section {
+        padding: 0 15px;
+    }
+    .heading {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .mb-60 {
+        margin-bottom: 30px;
+    }
+    .mt-60 {
+        margin-top: 30px;
+    }
+  }
+
+
+  @media (min-width: 200px) and (max-width: 600px) {
+    section {
+        padding: 0 8px;
+    }
+    .heading {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .mb-60 {
+        margin-bottom: 20px;
+    }
+    .mt-60 {
+        margin-top: 20px;
     }
   }

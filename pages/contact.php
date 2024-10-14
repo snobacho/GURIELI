@@ -6,7 +6,7 @@
 ?>
 
 <head>
-    <link rel="stylesheet" href="<?php echo $root?>assets/styles/global.css">
+    <link rel="stylesheet" href="<?php echo $root?>assets/styles/styles.css">
     <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/slider.css">
     <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/contact.css">
 </head>

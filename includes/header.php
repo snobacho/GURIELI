@@ -5,12 +5,14 @@
         
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pageTitle; ?></title>
     <link rel="stylesheet" href="<?= $root ?>assets/styles/header.css">
-    <link rel="stylesheet" href="<?= $root ?>assets/styles/global.css">
+    <link rel="stylesheet" href="<?= $root ?>assets/styles/styles.css">
+    <meta property="og:image" content="<?php echo $root?>assets/imgs/agriculture.jpg">
+    <meta property="og:title" content="Gurieli - Tea">
 </head>
 <body>
 <header class="navbar">
@@ -20,7 +22,12 @@
         <span class="bar"></span>
         <span class="bar"></span>
     </div>
-    
+
+    <div class="lang-switch header-lang">
+        <a href="#" class="active">ENG</a>
+        <a href="#">GEO</a>
+    </div>
+
     <nav class="nav">
         <ul class="nav-list">
             <li class="nav-item">

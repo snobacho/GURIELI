@@ -6,13 +6,14 @@
 ?>
 
 <head>
-    <link rel="stylesheet" href="<?php echo $root?>assets/styles/global.css">
+    <link rel="stylesheet" href="<?php echo $root?>assets/styles/styles.css">
     <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/slider.css">
     <link rel="stylesheet" href="<?php echo $root; ?>assets/styles/products.css">
 </head>
 
-    <!-- start slider section  -->
-    <div class="slider-container" id="slider3">
+<body class="animated-content">
+ <!-- start slider section  -->
+ <div class="slider-container animated-content" id="slider3">
         <div class="left-bar">
             <div class="bullets">
                 <div class="bullet active"></div>
@@ -174,43 +175,46 @@
         <div id="popup5" class="popup">
             <div class="popup-content">
                 <span class="close"> <img src="<?= $root ?>assets/imgs/icons/close-popup.png" alt="Gurieli tea"></span>
-                <img src="<?= $root ?>assets/imgs/products-imgs/traditional-black.png" alt="Gurieli tea">
+                <img class="popup-img" src="<?= $root ?>assets/imgs/products-imgs/traditional-black.png" alt="Gurieli tea">
                 <div class="popup-text">
                     <h3 class="heading product-popup-title">TRADITIONAL BLACK</h3>
                     <h4 class="heading popup-page-title">Prince Gurieli</h4>
-                    <p class="txt">An exotic blend of loose leaf tea with hints of spices and fruits. This tea offers a complex taste profile, making it perfect for tea enthusiasts looking for something new and exciting. Each sip reveals new layers of flavor.</p>
+                    <p class="txt">This is a rich and flavorful loose leaf tea with a strong aroma, sourced from the finest tea gardens. The tea has a bold taste that complements both milk and lemon perfectly. Ideal for a refreshing morning brew.</p>
                     <p class="heading popup-gr">Loose leaf tea, vol. 100 gr.</p>
                 </div>
             </div>
         </div>
+
         <div id="popup6" class="popup">
             <div class="popup-content">
                 <span class="close"> <img src="<?= $root ?>assets/imgs/icons/close-popup.png" alt="Gurieli tea"></span>
-                <img src="<?= $root ?>assets/imgs/products-imgs/traditional-black.png" alt="Gurieli tea">
+                <img class="popup-img" src="<?= $root ?>assets/imgs/products-imgs/traditional-black.png" alt="Gurieli tea">
                 <div class="popup-text">
                     <h3 class="heading product-popup-title">TRADITIONAL BLACK</h3>
                     <h4 class="heading popup-page-title">Prince Gurieli</h4>
-                    <p class="txt">An exotic blend of loose leaf tea with hints of spices and fruits. This tea offers a complex taste profile, making it perfect for tea enthusiasts looking for something new and exciting. Each sip reveals new layers of flavor.</p>
+                    <p class="txt">A delicate loose leaf tea with floral undertones and a light, refreshing flavor. It’s perfect for a calm afternoon tea session. Sourced from high-altitude plantations, this tea offers a unique balance of taste and fragrance.</p>
                     <p class="heading popup-gr">Loose leaf tea, vol. 100 gr.</p>
                 </div>
             </div>
         </div>
+
         <div id="popup7" class="popup">
             <div class="popup-content">
                 <span class="close"> <img src="<?= $root ?>assets/imgs/icons/close-popup.png" alt="Gurieli tea"></span>
-                <img src="<?= $root ?>assets/imgs/products-imgs/traditional-black.png" alt="Gurieli tea">
+                <img class="popup-img" src="<?= $root ?>assets/imgs/products-imgs/traditional-black.png" alt="Gurieli tea">
                 <div class="popup-text">
                     <h3 class="heading product-popup-title">TRADITIONAL BLACK</h3>
                     <h4 class="heading popup-page-title">Prince Gurieli</h4>
-                    <p class="txt">An exotic blend of loose leaf tea with hints of spices and fruits. This tea offers a complex taste profile, making it perfect for tea enthusiasts looking for something new and exciting. Each sip reveals new layers of flavor.</p>
+                    <p class="txt">This bold and malty loose leaf tea is perfect for those who prefer a strong cup. With hints of caramel and honey, it’s a great choice for breakfast or an energizing tea break. The tea is known for its rich flavor and deep color.</p>
                     <p class="heading popup-gr">Loose leaf tea, vol. 100 gr.</p>
                 </div>
             </div>
         </div>
+
         <div id="popup8" class="popup">
             <div class="popup-content">
                 <span class="close"> <img src="<?= $root ?>assets/imgs/icons/close-popup.png" alt="Gurieli tea"></span>
-                <img src="<?= $root ?>assets/imgs/products-imgs/traditional-black.png" alt="Gurieli tea">
+                <img class="popup-img" src="<?= $root ?>assets/imgs/products-imgs/traditional-black.png" alt="Gurieli tea">
                 <div class="popup-text">
                     <h3 class="heading product-popup-title">TRADITIONAL BLACK</h3>
                     <h4 class="heading popup-page-title">Prince Gurieli</h4>
@@ -227,3 +231,5 @@
         $root = dirname(__DIR__) . '/'; 
         include $root . 'includes/footer.php';
     ?>
+</body>
+   
