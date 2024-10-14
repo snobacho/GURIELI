@@ -1,6 +1,5 @@
 <?php
-    $root = dirname(__DIR__) . '/'; 
-    $pageTitle = 'GUfRIELI';
+    $pageTitle = 'GURIELI';
     include 'includes/header.php';
 ?>
 <!DOCTYPE html>

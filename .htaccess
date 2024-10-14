@@ -9,3 +9,9 @@ ErrorDocument 404 /404.php
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^404.php$ /404.php [L]
 </IfModule>
+
+# Remove .php extension and "pages" directory from URLs
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)$ $1.php [L]
+
+RewriteRule ^pagetitle/([^/]+)$ /pages/$1.php [L]
