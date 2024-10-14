@@ -20,6 +20,7 @@
         <span class="bar"></span>
         <span class="bar"></span>
     </div>
+    
     <nav class="nav">
         <ul class="nav-list">
             <li class="nav-item">
@@ -54,30 +55,7 @@
     </nav>
 </header>
 
-<script>
-    const burgerMenu = document.querySelector('.menu-toggle');
-    const navMenu = document.querySelector('.nav');
-
-    burgerMenu.addEventListener('click', () => {
-        navMenu.classList.toggle('active');
-        burgerMenu.classList.toggle('open'); 
-    });
-
-    window.addEventListener('scroll', () => {
-        const aboutSection = document.querySelector('#about');
-        const aboutLink = document.querySelector('.about-link');
-
-        const sectionTop = aboutSection.offsetTop;
-        const sectionHeight = aboutSection.offsetHeight;
-        const scrollPosition = window.scrollY + 100; 
-
-        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-            aboutLink.classList.add('active')
-        } else {
-            aboutLink.classList.remove('active')
-        }
-    });
-</script>
+<script src="<?= $root ?>/assets/scripts/header.js"> </script>
 
     
 </body>

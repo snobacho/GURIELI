@@ -142,6 +142,15 @@
     <?php include 'includes/footer.php';?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="<?php echo $root;?>assets/scripts/sliders.js"></script>
+    
+    
+    
+    
+    <script>
+   
+
+
+ </script>
 
 
 </body>
