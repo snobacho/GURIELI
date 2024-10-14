@@ -118,16 +118,12 @@ img {
     opacity: 1;
   }
 
-
-
-
-
-
   
   @media (max-width: 1040px) {
     .btn-dark a, .btn-light a {
         height: 38px;
         font-size: 14px;
+        padding: 0 16px;
     }
   }
 

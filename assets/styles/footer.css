@@ -58,8 +58,6 @@
     color: white;
 } 
 
-/* responsive css  */
-
 @media only screen and (max-width: 768px) {
     .statistic-item h4 {
         font-size: 22px;
@@ -68,9 +66,12 @@
         margin: 10px;
     }
     .statistic-item  p {
-        font-size: 16px;
+        font-size: 12px;
     }
     .footer-statistics .statistic-wrap {
         gap: 15px;
     }
 }
+
+
+

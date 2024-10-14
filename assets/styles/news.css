@@ -5,13 +5,20 @@
 section {
     background: white;
 }
+.news-section .news.heading {
+    padding-top: 160px;
+    text-align: center;
+    font-family: 'Albertus Medium', sans-serif;
+    font-weight: 200;
+    color: #4E4E4E;
+}
 .news-cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 15px;
     max-width: 1300px;
-    margin: 160px auto 0 auto;
+    margin: 0 auto;
     padding-bottom: 60px;
 }
 
@@ -74,4 +81,18 @@ section {
 .news-card:hover img {
     transform: scale(1.2);
     transition: .4s;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .news-section .news.heading {
+        padding-top: 110px;
+    }
+    .news-cards p {
+      padding-left: 0;
+    }
+    .news-card .news-title {
+        margin-top: 6px;
+        margin-bottom: 1px;
+    }
 }

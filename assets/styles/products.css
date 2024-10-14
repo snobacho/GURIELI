@@ -55,6 +55,7 @@
     justify-content: center;
     align-items: center;
     overflow-y: scroll;
+    z-index: 3;
 }
 
 .product-page .popup-content {
@@ -153,6 +154,10 @@
     }
     .product-page .product-popup-title {
         font-size: 16px;
+        margin: 0;
+    }
+    .product-page .popup-page-title {
+        margin-bottom: 9px;
     }
     .product-page .card-container {
         margin-top: 20px;

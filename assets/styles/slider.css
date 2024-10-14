@@ -183,6 +183,7 @@
         margin-top: calc(100vh - 100px);
         position: absolute;
         background: none;
+        transform: rotate(180deg);
       }
       .bullets {
         transform: rotate(90deg);
@@ -218,6 +219,7 @@
       margin-top: calc(100vh - 100px);
       position: absolute;
       background: none;
+      transform: rotate(180deg);
     }
     .bullets {
       transform: rotate(90deg);
@@ -227,7 +229,7 @@
       font-size: 22px;
     }
     .home .content-slider .description {
-      font-size: 13px;
+      font-size: 15px;
       margin: 8px 0;
       margin-bottom: 14px;
     }
@@ -241,6 +243,9 @@
     .right-bar img {
       height: 15px;
       max-width: 15px;
+    }
+    .home .content-slider .btn-light {
+      margin-top: 10px;
     }
     
   }
