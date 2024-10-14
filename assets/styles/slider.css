@@ -198,6 +198,7 @@
       .right-bar {
         height: auto;
         top: 215px;
+        width: 81px;
       }
       .right-bar img {
         height: 15px;
@@ -229,6 +230,7 @@
     .home .content-slider .description {
       font-size: 13px;
       margin: 8px 0;
+      margin-bottom: 14px;
     }
     .home .content .small-desc {
       font-size: 13px;
@@ -253,6 +255,12 @@
   
 @media (min-width: 200px) and (max-width: 360px) {
   .right-bar {
-      width: 60px;
+      width: 45px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 600px) {
+  .right-bar {
+      width: 81px;
   }
 }

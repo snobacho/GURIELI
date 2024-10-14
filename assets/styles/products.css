@@ -157,4 +157,10 @@
     .product-page .card-container {
         margin-top: 20px;
     }
+    .product-page {
+        padding: 0 15px;
+    }
+    .product-page .card {
+        width: 90%;
+    }
 }

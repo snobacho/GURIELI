@@ -279,8 +279,12 @@
     .lang-switch.header-lang a {
         color: white;
     }
-    .navbar.inside-nav.lang-switch.header-lang a {
-        color: var(--gray);
+    .navbar.inside-nav .lang-switch.header-lang a {
+        color: #545454;
+        font-weight: 600;
+    }
+    .navbar.inside-nav .lang-switch.header-lang a.active {
+        color:#97A52F;
     }
     .logo img {
         width: 150px;

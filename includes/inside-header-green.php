@@ -27,6 +27,12 @@
             <span class="bar"></span>
             <span class="bar"></span>
         </div>
+
+        <div class="lang-switch header-lang">
+            <a href="#" class="active">ENG</a>
+            <a href="#">GEO</a>
+        </div>
+
         <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item <?= $current_page == 'index.php' ? 'active' : '' ?>">
